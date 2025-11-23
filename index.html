@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skoda Fabia Helper: Эксклюзивный Доступ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* (CSS-стили остаются без изменений, они отличные!) */
+        :root {
+            --primary-color: #008080; /* Спокойный, глубокий Теал (бирюзово-зеленый) */
+            --bg-color: #FAFAFA;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        .main-card {
+            background-color: white;
+            padding: 60px;
+            border-radius: 15px;
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15);
+            max-width: 650px;
+            width: 90%;
+            border: 1px solid #eee;
+        }
+
+        .icon-box {
+            font-size: 4em;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+
+        .greeting-header {
+            font-family: 'Lora', serif;
+            font-size: 1.1em;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #888;
+            margin-bottom: 10px;
+        }
+
+        .main-title {
+            font-family: 'Lora', serif;
+            font-size: 3.2em;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-top: 0;
+            margin-bottom: 25px;
+        }
+
+        .personal-message {
+            font-size: 1.1em;
+            line-height: 1.7;
+            margin-bottom: 50px;
+            color: #555;
+            padding: 0 15px;
+        }
+
+        /* Кнопка "Скачать" */
+        .cta-button {
+            background-color: var(--primary-color); 
+            color: white;
+            padding: 18px 50px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.25em;
+            font-weight: 600;
+            text-transform: uppercase;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            box-shadow: 0 6px 20px rgba(0, 128, 128, 0.4); 
+            transition: all 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #009999; 
+            transform: translateY(-2px); 
+        }
+
+        .signature {
+            margin-top: 40px;
+            font-size: 0.95em;
+            color: #888;
+        }
+
+        /* Адаптивность */
+        @media (max-width: 600px) {
+            .main-card {
+                padding: 30px 20px;
+            }
+            .main-title {
+                font-size: 2.5em;
+            }
+            .cta-button {
+                font-size: 1.1em;
+                padding: 15px 35px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-card">
+        <div class="icon-box">
+            🚗
+        </div>
+        
+        <header>
+            <h1 class="main-title">Skoda Fabia Helper</h1>
+        </header>
+        
+        <main>
+            <p class="personal-message">
+                "Это эксклюзивное приложение с полной информацией по Skoda Fabia 2018. Создано и настроено специально для Игоря, чтобы сделать уход за машиной проще и удобнее."
+            </p>
+
+            <a href="Skoda Fabia Helper.zip" class="cta-button">
+                Скачать
+            </a>
+        </main>
+
+        <footer class="signature">
+            Ваш личный помощник готов к установке.
+        </footer>
+    </div>
+
+</body>
+</html>
